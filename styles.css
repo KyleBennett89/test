@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  font-family:  sans-serif;
+}
+
+
+.startpage{
+ background-color:rgb(15, 15, 15);
+}
+
+.startpageimage{
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+body{
+  background: rgb(15, 15, 15);
+  
+}
+
+
+
+/** openpage ts and cs **/
+h2{
+  margin-top: 20px;
+  color: white;
+  font-family: 'Poppins','Segoe UI', sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.tcopen{
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+
+a{
+  color: white;
+  font-family: 'Poppins' sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding-bottom: 25px;
+}
+
+a:hover{
+  color:red;
+}
+
+.copyright{
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+@keyframes rotate {
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+@media (max-width: 640px){
+  .center{
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+   align-items: center;
+   justify-content: center;
+  }
+  .outer{
+    margin: 50px 0;
+  }
+}
+
